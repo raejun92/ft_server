@@ -4,7 +4,7 @@ mv localhost.dev.key etc/ssl/private/
 chmod 600 etc/ssl/certs/localhost.dev.crt etc/ssl/private/localhost.dev.key
 # 인증서
 
-cp /tmp/default /etc/nginx/sites-available/
+# cp /tmp/default /etc/nginx/sites-available/
 # nginx에 ssl, 리다이렉트, 오토인덱스, php-fpm 추가
 
 wget https://files.phpmyadmin.net/phpMyAdmin/5.0.2/phpMyAdmin-5.0.2-all-languages.tar.gz
